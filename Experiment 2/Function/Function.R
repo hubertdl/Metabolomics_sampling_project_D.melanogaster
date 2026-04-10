@@ -54,7 +54,7 @@ rm(list = ls(all.names = TRUE), envir = .GlobalEnv)
 # =========================
 # Load data
 # =========================
-results_df <- readRDS("./LM_downsample_results_META.rds")
+results_df <- readRDS("./LM_downsample_results_META.rds") # requires large output file from downsampling analysis
 
 # =========================
 # Constants
