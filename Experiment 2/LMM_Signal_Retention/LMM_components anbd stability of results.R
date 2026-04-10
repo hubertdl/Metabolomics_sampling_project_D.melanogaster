@@ -41,7 +41,7 @@ library(dplyr)
 # =========================
 # Load data
 # =========================
-results_df <- readRDS("./LM_downsample_results_META.rds")
+results_df <- readRDS("./LM_downsample_results_META.rds") # large output file from downsampling analysis
 
 # =========================
 # Basic preprocessing
