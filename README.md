@@ -33,8 +33,9 @@ The analysis workflow includes:
 4. Principal component analysis across LC–MS panels
 5. Linear modeling to identify diet-associated metabolites
 6. Downsampling of replicate populations to evaluate signal retention
-7. Quantification of true/false positives, effect size stability, and detection frequency
-8. Functional grouping of metabolites into curated biochemical modules
+7. Beta-binomial and zero-inflated Poisson generalized linear mixed models to identify the determinants of metabolite signal retention and quantify the trade-off between pool size and replication
+8. Quantification of true/false positives, effect size stability, and detection frequency
+9. Functional grouping of metabolites into curated biochemical modules
 
 ## Reproducibility
 
@@ -44,14 +45,24 @@ All scripts are organized to reproduce the analyses and figures presented in the
 
 Analyses were performed in R (version 4.x). Required packages include:
 
-- dplyr  
-- tidyr  
-- ggplot2  
-- lme4  
-- lmerTest  
-- emmeans  
-- ggpubr / patchwork  
-- future.apply  
+- dplyr
+- tidyr
+- tidyverse
+- ggplot2
+- lme4
+- lmerTest
+- emmeans
+- ggpubr / patchwork
+- future.apply
+- parallel
+- glmmTMB
+- DHARMa
+- stringr
+- data.table
+- dbplyr
+- ggvenn
+- vegan
+- writexl
 
 ## Authors
 
