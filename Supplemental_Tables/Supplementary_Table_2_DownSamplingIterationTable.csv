@@ -1,0 +1,8 @@
+Supplementary Table 2. Number of replicate-removal combinations and downsampling iterations evaluated at each removal level.,,,
+Replicates remaining,n_remove,Combinations per group,Total iterations
+8,0,1,1
+7,1,8,64
+6,2,28,64
+5,3,56,64
+4,4,70,64
+3,5,56,64
