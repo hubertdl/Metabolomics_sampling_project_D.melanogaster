@@ -10,7 +10,7 @@ library(lme4)
 library(lmerTest)
 library(broom.mixed)
 
-setwd("C:/Users/huber/Box/Phillips Lab/Projects/Metabolomics_Sampling_Project/PoolSize&GeneticVariation/LMM")
+setwd("") # set working directory to a location that also contains a subdirectory with the normalized metabolomics data for each panel and ion mode (called "Mean_centered_by_Metabolite").
 
 
 # Clear the global environment, but not the plots
