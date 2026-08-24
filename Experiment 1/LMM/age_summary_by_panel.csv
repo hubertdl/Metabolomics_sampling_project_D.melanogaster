@@ -1,0 +1,5 @@
+panel,n_sig,n_increase,n_decrease
+C18_neg,2,0,2
+C18_pos,14,2,12
+HILIC_neg,87,24,63
+HILIC_pos,32,11,21
